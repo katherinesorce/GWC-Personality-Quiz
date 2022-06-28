@@ -1,0 +1,45 @@
+/* STYLE SECTIONING TAGS */
+body {
+  margin: 2em;
+  background-color: lightcyan;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: coral;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+  margin-top: 2em; 
+  color: lightseagreen;
+  font-family: 'Work Sans', sans-serif;
+}
+
+p {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
